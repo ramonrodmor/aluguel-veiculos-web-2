@@ -1,0 +1,54 @@
+Carros disponíveis em JSON
+GET http://localhost:8080/aluguel-ramon2/rest/veiculos/disponiveisJson
+
+Carros disponíveis em XML
+GET http://localhost:8080/aluguel-ramon2/rest/veiculos/disponiveisXml
+
+Consultar dados de um veículo por renavan em JSON
+GET http://localhost:8080/aluguel-ramon2/rest/veiculos/{chave}/json
+
+Consultar dados de um veículo por renavan em XML
+GET http://localhost:8080/aluguel-ramon2/rest/veiculos/{chave}/xml
+
+Consultar carros por tipo em JSON
+GET http://localhost:8080/aluguel-ramon2/rest/veiculos/tipo/{chave}/json
+
+Consultar carros por tipo em XML
+GET http://localhost:8080/aluguel-ramon2/rest/veiculos/tipo/{chave}/xml
+
+Listagem de clientes em JSON
+GET http://localhost:8080/aluguel-ramon2/rest/clientes/json
+
+Listagem de clientes em XML
+GET http://localhost:8080/aluguel-ramon2/rest/clientes/xml
+
+Consultar dados de cliente por cpf em JSON
+GET http://localhost:8080/aluguel-ramon2/rest/clientes/{chave}/json
+
+Consultar dados de cliente por cpf em XML
+GET http://localhost:8080/aluguel-ramon2/rest/clientes/{chave}/xml
+
+Listagem de reservas em JSON
+GET http://localhost:8080/aluguel-ramon2/rest/reservas/json
+
+Listagem de reservas em XML
+GET http://localhost:8080/aluguel-ramon2/rest/reservas/xml
+
+Consultar dados de uma reserva por codigo em JSON
+GET http://localhost:8080/aluguel-ramon2/rest/reservas/{chave}/json
+
+Consultar dados de uma reserva por codigo em XML
+GET http://localhost:8080/aluguel-ramon2/rest/reservas/{chave}/xml
+
+Altera carro em JSON
+PUT http://localhost:8080/aluguel-ramon2/rest/veiculos/alteraJson
+
+Altera carro em XML
+PUT http://localhost:8080/aluguel-ramon2/rest/veiculos/alteraXml
+
+Remover carros por renavan em JSON
+DELETE http://localhost:8080/aluguel-ramon2/rest/veiculos/remove/{chave}/json
+
+Remover carros por renavan em XML
+DELETE http://localhost:8080/aluguel-ramon2/rest/veiculos/remove/{chave}/xml
+
