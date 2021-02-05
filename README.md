@@ -6,6 +6,9 @@ Este projeto foi desenvolvido como requisito para obtenção da nota da terceira
 ### Atualização
 O projeto é uma adaptação do [Aluguel de veículos web](https://github.com/ramonrodmor/aluguel-veiculos-web).
 
+### Banco de dados
+* MySQL
+
 ### Padrões de projeto
 * MVC - Model-View-Controller;
 * DAO - Data Access Object
